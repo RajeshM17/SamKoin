@@ -3,7 +3,7 @@
 		"inputs": [
 			{
 				"internalType": "contract IERC20",
-				"name": "_radio",
+				"name": "_samk",
 				"type": "address"
 			}
 		],
@@ -229,7 +229,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "radio",
+		"name": "samk",
 		"outputs": [
 			{
 				"internalType": "contract IERC20",

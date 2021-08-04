@@ -236,7 +236,7 @@ function AppBar(): JSX.Element {
                                                                         symbol: 'xSAMK',
                                                                         decimals: 18,
                                                                         image:
-                                                                            'https://www.pikpng.com/pngl/m/418-4188045_logo-radio-shack-circle-clipart.png'
+                                                                            'https://samkoin.com/public/images/other/sam1.png'
                                                                     }
                                                                 }    
 
@@ -304,7 +304,7 @@ function AppBar(): JSX.Element {
                                                                         break
                                                                     case ChainId.RINKEBY:
                                                                         address =
-                                                                            '0x844F581aFa1C5846Ea4eD963478Dd4DF1b96FE5c'
+                                                                            '0xAD439749760549212b774A7B19a8F65F2672BF76'
                                                                         break
                                                                 }
                                                                 const params: any = {
@@ -314,7 +314,7 @@ function AppBar(): JSX.Element {
                                                                         symbol: 'SamK',
                                                                         decimals: 18,
                                                                         image:
-                                                                            'https://www.pikpng.com/pngl/m/418-4188045_logo-SamK-shack-circle-clipart.png'
+                                                                            'https://samkoin.com/public/images/other/sam1.png'
                                                                     }
                                                                 }
 

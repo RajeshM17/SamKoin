@@ -13,7 +13,7 @@
 			},
 			{
 				"internalType": "address",
-				"name": "_radio",
+				"name": "_samk",
 				"type": "address"
 			},
 			{
@@ -80,7 +80,7 @@
 			{
 				"indexed": false,
 				"internalType": "uint256",
-				"name": "amountRADIO",
+				"name": "amountSAMK",
 				"type": "uint256"
 			}
 		],
