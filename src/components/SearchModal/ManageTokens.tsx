@@ -1,4 +1,4 @@
-import { Token } from 'quest-switchswap-sdk'
+import { Token } from 'quest-samkoin-sdk'
 import Card from 'components/Card'
 import Column from 'components/Column'
 import CurrencyLogo from 'components/CurrencyLogo'

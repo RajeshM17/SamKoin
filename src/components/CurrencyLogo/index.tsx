@@ -1,4 +1,4 @@
-import { ChainId, Currency, ETHER, Token } from 'quest-switchswap-sdk'
+import { ChainId, Currency, ETHER, Token } from 'quest-samkoin-sdk'
 import React, { useMemo } from 'react'
 
 import AvalancheLogo from '../../assets/images/avalanche-logo.png'

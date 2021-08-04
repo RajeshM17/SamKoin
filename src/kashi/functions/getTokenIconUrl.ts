@@ -1,4 +1,4 @@
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 
 const TOKEN_ICONS: { [chainId in ChainId]?: any } = {
     [ChainId.MAINNET]: {

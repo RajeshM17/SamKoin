@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 import Circle from '../../assets/images/blue-loader.svg'
 import { CustomLightSpinner } from '../../theme'
 import { getTokenIconUrl } from '../functions'

@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from 'quest-switchswap-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from 'quest-samkoin-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

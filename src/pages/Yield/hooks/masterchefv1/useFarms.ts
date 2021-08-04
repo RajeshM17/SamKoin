@@ -10,7 +10,7 @@ import orderBy from 'lodash/orderBy'
 import sushiData from 'quest-switchswap-sushi-data'
 
 import { useActiveWeb3React } from '../../../../hooks/useActiveWeb3React'
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 
 // Todo: Rewrite in terms of web3 as opposed to subgraph
 const useFarms = () => {

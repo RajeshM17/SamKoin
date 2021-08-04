@@ -1,4 +1,4 @@
-import { Percent } from 'quest-switchswap-sdk'
+import { Percent } from 'quest-samkoin-sdk'
 import React from 'react'
 import { ONE_BIPS } from '../../constants'
 import { warningSeverity } from '../../utils/prices'

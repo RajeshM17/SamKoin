@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'quest-switchswap-sdk'
+import { CurrencyAmount, ETHER, JSBI } from 'quest-samkoin-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

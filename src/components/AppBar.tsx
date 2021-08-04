@@ -1,4 +1,4 @@
-import { ChainId, Currency } from 'quest-switchswap-sdk'
+import { ChainId, Currency } from 'quest-samkoin-sdk'
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import Logo from '../assets/images/logo.svg'

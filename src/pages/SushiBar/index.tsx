@@ -6,7 +6,7 @@ import InfoCard from './InfoCard'
 import APRCard from './APRCard'
 import StakeCard from './StakeCard'
 import BalanceCard from './BalanceCard'
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 import { SUSHI, XSUSHI,RADIO,xRadio, SAMK, xSAMK } from '../../constants'
 import useTokenBalance from '../../hooks/useTokenBalance'
 

@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'quest-switchswap-sdk'
+import { Token, TokenAmount } from 'quest-samkoin-sdk'
 import { ethers } from 'ethers'
 
 export default interface LPToken {

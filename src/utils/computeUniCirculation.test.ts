@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Token, TokenAmount } from 'quest-switchswap-sdk'
+import { ChainId, JSBI, Token, TokenAmount } from 'quest-samkoin-sdk'
 import { BigNumber, ethers } from 'ethers'
 import { computeUniCirculation } from './computeUniCirculation'
 

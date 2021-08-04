@@ -1,4 +1,4 @@
-import { Token } from 'quest-switchswap-sdk'
+import { Token } from 'quest-samkoin-sdk'
 import { ImportToken } from 'components/SearchModal/ImportToken'
 import React, { useCallback } from 'react'
 import Modal from '../Modal'

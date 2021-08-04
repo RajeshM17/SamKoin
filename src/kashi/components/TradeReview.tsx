@@ -1,5 +1,5 @@
 import React from 'react'
-import { Trade } from 'quest-switchswap-sdk'
+import { Trade } from 'quest-samkoin-sdk'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown } from 'utils/prices'
 import QuestionHelper from 'components/QuestionHelper'
 import FormattedPriceImpact from 'components/swap/FormattedPriceImpact'

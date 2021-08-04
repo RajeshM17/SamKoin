@@ -1,5 +1,5 @@
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, ETHER, Token, currencyEquals } from 'quest-switchswap-sdk'
+import { Currency, ETHER, Token, currencyEquals } from 'quest-samkoin-sdk'
 import { arrayify } from 'ethers/lib/utils'
 import { useMemo } from 'react'
 import { filterTokens } from '../components/SearchModal/filtering'

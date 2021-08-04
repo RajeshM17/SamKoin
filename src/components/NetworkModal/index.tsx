@@ -2,7 +2,7 @@ import { NETWORK_ICON, NETWORK_LABEL } from '../../constants/networks'
 import { useModalOpen, useNetworkModalToggle } from '../../state/application/hooks'
 
 import { ApplicationModal } from '../../state/application/actions'
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 import Modal from '../Modal'
 import ModalHeader from '../ModalHeader'
 import React from 'react'

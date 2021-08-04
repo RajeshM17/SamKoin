@@ -10,7 +10,7 @@ import {
 import { useCallback, useEffect, useState } from 'react'
 
 import { BigNumber } from '@ethersproject/bignumber'
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 import orderBy from 'lodash/orderBy'
 import sushiData from 'quest-switchswap-sushi-data'
 import { useActiveWeb3React } from 'hooks/useActiveWeb3React'

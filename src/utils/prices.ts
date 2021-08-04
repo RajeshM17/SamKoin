@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from 'quest-switchswap-sdk'
+import { ChainId, CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from 'quest-samkoin-sdk'
 import {
     ALLOWED_PRICE_IMPACT_HIGH,
     ALLOWED_PRICE_IMPACT_LOW,

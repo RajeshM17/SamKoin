@@ -6,7 +6,7 @@ import { formattedNum, formattedPercent } from '../../utils'
 import { useFuse, useSortableData } from 'hooks'
 import { useMasterChefContract, useMiniChefV2Contract } from '../../hooks/useContract'
 
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 import { SimpleDots as Dots } from 'kashi/components'
 import { Helmet } from 'react-helmet'
 import Menu from './Menu'

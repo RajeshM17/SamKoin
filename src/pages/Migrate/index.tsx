@@ -1,5 +1,5 @@
 import { ApprovalState, useApproveCallback } from '../../hooks/useApproveCallback'
-import { ChainId, JSBI } from 'quest-switchswap-sdk'
+import { ChainId, JSBI } from 'quest-samkoin-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { formatUnits, parseUnits } from '@ethersproject/units'
 import useMigrateState, { MigrateState } from '../../hooks/useMigrateState'

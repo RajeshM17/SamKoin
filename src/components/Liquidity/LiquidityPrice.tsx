@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currency, Price } from 'quest-switchswap-sdk'
+import { Currency, Price } from 'quest-samkoin-sdk'
 import { AutoRow } from '../../components/Row'
 import { useActiveWeb3React } from '../../hooks/useActiveWeb3React'
 

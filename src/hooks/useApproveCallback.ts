@@ -1,6 +1,6 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { TransactionResponse } from '@ethersproject/providers'
-import { CurrencyAmount, ETHER, TokenAmount, Trade } from 'quest-switchswap-sdk'
+import { CurrencyAmount, ETHER, TokenAmount, Trade } from 'quest-samkoin-sdk'
 import { useCallback, useMemo } from 'react'
 import { useTokenAllowance } from '../data/Allowances'
 import { Field } from '../state/swap/actions'

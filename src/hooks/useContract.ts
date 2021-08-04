@@ -12,7 +12,7 @@ import {
     SUSHI_ADDRESS,
     TIMELOCK_ADDRESS,
     WETH
-} from 'quest-switchswap-sdk'
+} from 'quest-samkoin-sdk'
 import {
     BENTOBOX_ADDRESS,
     BORING_HELPER_ADDRESS,

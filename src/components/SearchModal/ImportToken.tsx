@@ -1,4 +1,4 @@
-import { Currency, Token } from 'quest-switchswap-sdk'
+import { Currency, Token } from 'quest-samkoin-sdk'
 import { ButtonPrimary } from 'components/ButtonLegacy'
 import Card from 'components/Card'
 import { AutoColumn } from 'components/Column'

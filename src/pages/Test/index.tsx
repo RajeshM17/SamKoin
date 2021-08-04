@@ -1,5 +1,5 @@
 import React from 'react'
-// import { PancakeV1Pair, PancakeV2Pair } from 'quest-switchswap-sdk'
+// import { PancakeV1Pair, PancakeV2Pair } from 'quest-samkoin-sdk'
 
 export default function Test() {
     return <div></div>

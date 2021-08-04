@@ -1,4 +1,4 @@
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 import { FortmaticConnector } from './Fortmatic'
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { LatticeConnector } from '@web3-react/lattice-connector'

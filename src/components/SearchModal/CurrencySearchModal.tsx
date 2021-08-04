@@ -1,4 +1,4 @@
-import { Currency, Token } from 'quest-switchswap-sdk'
+import { Currency, Token } from 'quest-samkoin-sdk'
 import { TokenList } from '@uniswap/token-lists'
 import usePrevious from 'hooks/usePrevious'
 import React, { useCallback, useEffect, useState } from 'react'

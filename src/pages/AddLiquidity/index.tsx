@@ -1,6 +1,6 @@
 import { ApprovalState, useApproveCallback } from '../../hooks/useApproveCallback'
 import { ButtonError, ButtonLight, ButtonPrimary } from '../../components/ButtonLegacy'
-import { Currency, ETHER, TokenAmount, WETH, currencyEquals } from 'quest-switchswap-sdk'
+import { Currency, ETHER, TokenAmount, WETH, currencyEquals } from 'quest-samkoin-sdk'
 import { Dots, Wrapper } from '../Pool/styleds'
 import React, { useCallback, useContext, useState } from 'react'
 import Row, { AutoRow, RowBetween, RowFlat } from '../../components/Row'

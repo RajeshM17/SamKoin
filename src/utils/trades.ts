@@ -1,4 +1,4 @@
-import { Percent, Trade, currencyEquals } from 'quest-switchswap-sdk'
+import { Percent, Trade, currencyEquals } from 'quest-samkoin-sdk'
 import { ONE_HUNDRED_PERCENT, ZERO_PERCENT } from './../constants/index'
 
 // returns whether tradeB is better than tradeA by at least a threshold percentage amount

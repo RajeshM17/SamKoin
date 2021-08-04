@@ -1,4 +1,4 @@
-import { Currency } from 'quest-switchswap-sdk'
+import { Currency } from 'quest-samkoin-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

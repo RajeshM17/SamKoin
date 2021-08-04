@@ -1,4 +1,4 @@
-import { ChainId } from 'quest-switchswap-sdk'
+import { ChainId } from 'quest-samkoin-sdk'
 import { signERC2612Permit } from 'eth-permit'
 import { ethers } from 'ethers'
 import { useCallback } from 'react'
