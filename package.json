@@ -111,7 +111,7 @@
         "qs": "^6.9.4",
         "quest-switchswap-core": "1.0.2",
         "quest-switchswap-default-token-list": "1.0.3",
-        "quest-switchswap-sdk": "1.0.5",
+        "quest-samkoin-sdk": "1.0.0",
         "quest-switchswap-sushi-data": "1.0.2",
         "react": "^17.0.2",
         "react-app-rewire-hot-loader": "^2.0.1",
