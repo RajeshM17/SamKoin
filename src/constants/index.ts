@@ -80,6 +80,38 @@ export const RADIO: ChainTokenMap = {
     
 }
 
+export const SAMK: ChainTokenMap = {
+    [ChainId.MAINNET]: new Token(
+        ChainId.MAINNET,
+        '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',  //ADDRESS NEED TO UPDATE
+        18,
+        'SAMK',
+        'SamKoin'
+    ),
+    [ChainId.MATIC]: new Token(
+        ChainId.MATIC,
+        '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',
+        18,
+        'SAMK',
+        'SamKoin'
+    ),
+    [ChainId.RINKEBY]: new Token(
+        ChainId.RINKEBY,
+        '0xAD439749760549212b774A7B19a8F65F2672BF76',
+        18,
+        'SAMK',
+        'SamKoin'
+    ),
+    [ChainId.BSC]: new Token(
+        ChainId.BSC,
+        '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',   // ADDRESS NEED TO UPDATE
+        18,
+        'SAMK',
+        'SamKoin'
+    )
+    
+}
+
 export const xRadio: ChainTokenMap = {
     [ChainId.MAINNET]: new Token(
         ChainId.MAINNET,
@@ -111,6 +143,36 @@ export const xRadio: ChainTokenMap = {
     )
 }
 
+export const xSAMK: ChainTokenMap = {
+    [ChainId.MAINNET]: new Token(
+        ChainId.MAINNET,
+        '0xbea6aff7067d1db51145039c6484a9b670c705ad',  //address need to change
+         18,
+        'xSAMK',
+        'SamKBar'
+    ),
+    [ChainId.MATIC]: new Token(
+        ChainId.MATIC,
+        '0xbea6aff7067d1db51145039c6484a9b670c705ad',
+         18,
+        'xSAMK',
+        'SamKBar'
+    ),
+    [ChainId.BSC]: new Token(
+        ChainId.BSC,
+        '0xbea6aff7067d1db51145039c6484a9b670c705ad',     //address need to change
+         18,
+        'xSAMK',
+        'SamKBar'
+    ),
+    [ChainId.RINKEBY]: new Token(
+        ChainId.RINKEBY,
+        '0x9455FA7047045454f4aF0c650B88e2F72232A13E',
+        18,
+        'xSAMK',
+        'SamKBar'
+    )
+}
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
     // [UNI_ADDRESS]: 'UNI',
@@ -197,6 +259,7 @@ export const MATIC: { [key: string]: Token } = {
     USDT: new Token(ChainId.MATIC, '0xc2132D05D31c914a87C6611C10748AEb04B58e8F', 6, 'USDT', 'Tether USD'),
     TEL: new Token(ChainId.MATIC, '0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32', 2, 'TEL', 'Telcoin'),
     SUSHI: new Token(ChainId.MATIC, '0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a', 18, 'SUSHI', 'SushiToken'),
+    SAMK: new Token(ChainId.MATIC, '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',18, 'SAMK', 'SamKoin'),
     RADIO: new Token(ChainId.MATIC, '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',18, 'RADIO', 'RadioToken'),
     AAVE: new Token(ChainId.MATIC, '0xD6DF932A45C0f255f85145f286eA0b292B21C90B', 18, 'AAVE', 'Aave'),
     FRAX: new Token(ChainId.MATIC, '0x104592a158490a9228070E0A8e5343B499e125D0', 18, 'FRAX', 'Frax'),

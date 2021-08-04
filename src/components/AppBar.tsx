@@ -226,14 +226,14 @@ function AppBar(): JSX.Element {
                                                                         break
                                                                     case ChainId.RINKEBY:
                                                                         address =
-                                                                            '0xbFa85aF088c28ab112fE40903c97bd8535c5e93c'
+                                                                            '0x9455FA7047045454f4aF0c650B88e2F72232A13E'
                                                                         break
                                                                 }
                                                                 const params: any = {
                                                                     type: 'ERC20',
                                                                     options: {
                                                                         address: address,
-                                                                        symbol: 'xSamK',
+                                                                        symbol: 'xSAMK',
                                                                         decimals: 18,
                                                                         image:
                                                                             'https://www.pikpng.com/pngl/m/418-4188045_logo-radio-shack-circle-clipart.png'
@@ -304,7 +304,7 @@ function AppBar(): JSX.Element {
                                                                         break
                                                                     case ChainId.RINKEBY:
                                                                         address =
-                                                                            '0x7011DE5032Fc40013bcf058D1efBD4D44b74c75A'
+                                                                            '0x844F581aFa1C5846Ea4eD963478Dd4DF1b96FE5c'
                                                                         break
                                                                 }
                                                                 const params: any = {

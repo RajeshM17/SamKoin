@@ -7,7 +7,7 @@ import APRCard from './APRCard'
 import StakeCard from './StakeCard'
 import BalanceCard from './BalanceCard'
 import { ChainId } from 'quest-switchswap-sdk'
-import { SUSHI, XSUSHI,RADIO,xRadio } from '../../constants'
+import { SUSHI, XSUSHI,RADIO,xRadio, SAMK, xSAMK } from '../../constants'
 import useTokenBalance from '../../hooks/useTokenBalance'
 
 const mockData = {
@@ -31,33 +31,33 @@ export default function XSushi() {
     const sushiBalance = useTokenBalance(
         (chainId === ChainId.MATIC)
         ? 
-        RADIO[ChainId.MATIC]?.address ?? ''
+        SAMK[ChainId.MATIC]?.address ?? ''
         :
         (chainId === ChainId.RINKEBY)
         ? 
-        RADIO[ChainId.RINKEBY ]?.address ?? ''
+        SAMK[ChainId.RINKEBY ]?.address ?? ''
         :
         (chainId === ChainId.MAINNET)
         ? 
-        RADIO[ChainId.MAINNET ]?.address ?? ''
+        SAMK[ChainId.MAINNET ]?.address ?? ''
         :
-        RADIO[ChainId.BSC ]?.address ?? ''
+        SAMK[ChainId.BSC ]?.address ?? ''
         )
         
     const xSushiBalance = useTokenBalance(
         (chainId === ChainId.MATIC)
         ?
-        xRadio[ChainId.MATIC]?.address ?? ''
+        xSAMK[ChainId.MATIC]?.address ?? ''
         :
         (chainId === ChainId.RINKEBY)
         ?
-        xRadio[ChainId.RINKEBY]?.address ?? ''
+        xSAMK[ChainId.RINKEBY]?.address ?? ''
         :
         (chainId === ChainId.MAINNET)
         ?
-        xRadio[ChainId.MAINNET]?.address ?? ''
+        xSAMK[ChainId.MAINNET]?.address ?? ''
         :
-        xRadio[ChainId.BSC]?.address ?? ''
+        xSAMK[ChainId.BSC]?.address ?? ''
         )
 
     return (

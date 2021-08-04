@@ -226,7 +226,7 @@ export default function Pool() {
                             </EmptyProposals>
                         )}
 
-                        {chainId && [ChainId.MAINNET, ChainId.BSC, ChainId.MATIC].includes(chainId) && (
+                        {chainId && [ChainId.MAINNET, ChainId.BSC, ChainId.MATIC, ChainId.RINKEBY].includes(chainId) && (
                             <Text textAlign="center" fontSize={14} style={{ padding: '.5rem 0 .5rem 0' }}>
                                 {i18n._(t`Have Liquidity on ${(chainId && migrateFrom[chainId]) ?? ''}?`)}{' '}
                                 <StyledInternalLink id="migrate-pool-link" to={'/migrate'}>
