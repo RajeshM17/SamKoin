@@ -90,7 +90,7 @@ export const SAMK: ChainTokenMap = {
     ),
     [ChainId.MATIC]: new Token(
         ChainId.MATIC,
-        '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',
+        '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',  //address need to update
         18,
         'SAMK',
         'SamKoin'
@@ -104,7 +104,7 @@ export const SAMK: ChainTokenMap = {
     ),
     [ChainId.BSC]: new Token(
         ChainId.BSC,
-        '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54',   // ADDRESS NEED TO UPDATE
+        '0xC456D84D202FcB97E29Fc2dce20aC613434C8065',  
         18,
         'SAMK',
         'SamKoin'

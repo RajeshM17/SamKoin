@@ -218,7 +218,7 @@ function AppBar(): JSX.Element {
                                                                         break
                                                                     case ChainId.BSC:
                                                                         address =
-                                                                            '0xbea6aff7067d1db51145039c6484a9b670c705ad'    //address need to change
+                                                                            '0xC456D84D202FcB97E29Fc2dce20aC613434C8065'    //address need to change
                                                                         break
                                                                     case ChainId.MATIC:
                                                                         address =
@@ -296,7 +296,7 @@ function AppBar(): JSX.Element {
                                                                         break
                                                                     case ChainId.BSC:
                                                                         address =
-                                                                            '0x52B8E9296B3c605eA7e9ecF1d201254bc9D55F54'   //address need to change
+                                                                            '0xC456D84D202FcB97E29Fc2dce20aC613434C8065'   //address need to change
                                                                         break
                                                                     case ChainId.MATIC:
                                                                         address =
