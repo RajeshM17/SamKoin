@@ -218,11 +218,11 @@ function AppBar(): JSX.Element {
                                                                         break
                                                                     case ChainId.BSC:
                                                                         address =
-                                                                            '0xC456D84D202FcB97E29Fc2dce20aC613434C8065'    //address need to change
+                                                                            '0xAF53b5f1AE51ae5Fe554912A7a2649Ebb90074E7'    
                                                                         break
                                                                     case ChainId.MATIC:
                                                                         address =
-                                                                            '0xbea6aff7067d1db51145039c6484a9b670c705ad'
+                                                                            '0xbea6aff7067d1db51145039c6484a9b670c705ad'     //address need to change
                                                                         break
                                                                     case ChainId.RINKEBY:
                                                                         address =
